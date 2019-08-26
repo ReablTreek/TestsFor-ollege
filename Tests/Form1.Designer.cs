@@ -136,31 +136,76 @@
             this.label43 = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.page9 = new System.Windows.Forms.Panel();
+            this.Q9Btn3 = new System.Windows.Forms.Button();
+            this.Q9Btn1 = new System.Windows.Forms.Button();
+            this.Q9Btn4 = new System.Windows.Forms.Button();
+            this.Q9Btn2 = new System.Windows.Forms.Button();
+            this.Q9Btn0 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Q9Btn0 = new System.Windows.Forms.Button();
-            this.Q9Btn1 = new System.Windows.Forms.Button();
-            this.Q9Btn2 = new System.Windows.Forms.Button();
-            this.Q9Btn4 = new System.Windows.Forms.Button();
-            this.Q9Btn3 = new System.Windows.Forms.Button();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.page10 = new System.Windows.Forms.Panel();
+            this.Q10Btn4 = new System.Windows.Forms.Button();
+            this.Q10Btn3 = new System.Windows.Forms.Button();
+            this.Q10Btn2 = new System.Windows.Forms.Button();
+            this.Q10Btn1 = new System.Windows.Forms.Button();
+            this.Q10Btn0 = new System.Windows.Forms.Button();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.Q10Btn0 = new System.Windows.Forms.Button();
-            this.Q10Btn1 = new System.Windows.Forms.Button();
-            this.Q10Btn2 = new System.Windows.Forms.Button();
-            this.Q10Btn3 = new System.Windows.Forms.Button();
-            this.Q10Btn4 = new System.Windows.Forms.Button();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.page11 = new System.Windows.Forms.Panel();
+            this.Q11Btn1 = new System.Windows.Forms.Button();
+            this.Q11Btn3 = new System.Windows.Forms.Button();
+            this.Q11Btn4 = new System.Windows.Forms.Button();
+            this.Q11Btn0 = new System.Windows.Forms.Button();
+            this.Q11Btn2 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.tabPage16 = new System.Windows.Forms.TabPage();
+            this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.tabPage19 = new System.Windows.Forms.TabPage();
+            this.tabPage20 = new System.Windows.Forms.TabPage();
+            this.tabPage21 = new System.Windows.Forms.TabPage();
+            this.result2 = new System.Windows.Forms.Label();
+            this.result1 = new System.Windows.Forms.Label();
+            this.result10 = new System.Windows.Forms.Label();
+            this.result9 = new System.Windows.Forms.Label();
+            this.result8 = new System.Windows.Forms.Label();
+            this.result7 = new System.Windows.Forms.Label();
+            this.result6 = new System.Windows.Forms.Label();
+            this.result5 = new System.Windows.Forms.Label();
+            this.result3 = new System.Windows.Forms.Label();
+            this.result0 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.result4 = new System.Windows.Forms.Label();
+            this.result11 = new System.Windows.Forms.Label();
+            this.result12 = new System.Windows.Forms.Label();
+            this.result13 = new System.Windows.Forms.Label();
+            this.result14 = new System.Windows.Forms.Label();
+            this.result15 = new System.Windows.Forms.Label();
+            this.result16 = new System.Windows.Forms.Label();
+            this.result17 = new System.Windows.Forms.Label();
+            this.result18 = new System.Windows.Forms.Label();
+            this.result19 = new System.Windows.Forms.Label();
             this.page1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -183,6 +228,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage10.SuspendLayout();
             this.page10.SuspendLayout();
+            this.tabPage11.SuspendLayout();
+            this.page11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPage21.SuspendLayout();
             this.SuspendLayout();
             // 
             // page1
@@ -343,6 +392,17 @@
             this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Controls.Add(this.tabPage10);
+            this.tabControl1.Controls.Add(this.tabPage11);
+            this.tabControl1.Controls.Add(this.tabPage12);
+            this.tabControl1.Controls.Add(this.tabPage13);
+            this.tabControl1.Controls.Add(this.tabPage14);
+            this.tabControl1.Controls.Add(this.tabPage15);
+            this.tabControl1.Controls.Add(this.tabPage16);
+            this.tabControl1.Controls.Add(this.tabPage17);
+            this.tabControl1.Controls.Add(this.tabPage18);
+            this.tabControl1.Controls.Add(this.tabPage19);
+            this.tabControl1.Controls.Add(this.tabPage20);
+            this.tabControl1.Controls.Add(this.tabPage21);
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
@@ -1400,6 +1460,71 @@
             this.page9.Size = new System.Drawing.Size(925, 570);
             this.page9.TabIndex = 19;
             // 
+            // Q9Btn3
+            // 
+            this.Q9Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q9Btn3.Location = new System.Drawing.Point(487, 445);
+            this.Q9Btn3.Name = "Q9Btn3";
+            this.Q9Btn3.Size = new System.Drawing.Size(177, 44);
+            this.Q9Btn3.TabIndex = 13;
+            this.Q9Btn3.Text = "Вариант Г";
+            this.Q9Btn3.UseVisualStyleBackColor = true;
+            this.Q9Btn3.Click += new System.EventHandler(this.Q9Btn3_Click);
+            // 
+            // Q9Btn1
+            // 
+            this.Q9Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q9Btn1.Location = new System.Drawing.Point(487, 395);
+            this.Q9Btn1.Name = "Q9Btn1";
+            this.Q9Btn1.Size = new System.Drawing.Size(177, 44);
+            this.Q9Btn1.TabIndex = 13;
+            this.Q9Btn1.Text = "Вариант Б";
+            this.Q9Btn1.UseVisualStyleBackColor = true;
+            this.Q9Btn1.Click += new System.EventHandler(this.Q9Btn1_Click);
+            // 
+            // Q9Btn4
+            // 
+            this.Q9Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q9Btn4.Location = new System.Drawing.Point(383, 495);
+            this.Q9Btn4.Name = "Q9Btn4";
+            this.Q9Btn4.Size = new System.Drawing.Size(177, 44);
+            this.Q9Btn4.TabIndex = 13;
+            this.Q9Btn4.Text = "Вариант Д";
+            this.Q9Btn4.UseVisualStyleBackColor = true;
+            this.Q9Btn4.Click += new System.EventHandler(this.Q9Btn4_Click);
+            // 
+            // Q9Btn2
+            // 
+            this.Q9Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q9Btn2.Location = new System.Drawing.Point(265, 445);
+            this.Q9Btn2.Name = "Q9Btn2";
+            this.Q9Btn2.Size = new System.Drawing.Size(177, 44);
+            this.Q9Btn2.TabIndex = 13;
+            this.Q9Btn2.Text = "Вариант В";
+            this.Q9Btn2.UseVisualStyleBackColor = true;
+            this.Q9Btn2.Click += new System.EventHandler(this.Q9Btn2_Click);
+            // 
+            // Q9Btn0
+            // 
+            this.Q9Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q9Btn0.Location = new System.Drawing.Point(265, 395);
+            this.Q9Btn0.Name = "Q9Btn0";
+            this.Q9Btn0.Size = new System.Drawing.Size(177, 44);
+            this.Q9Btn0.TabIndex = 13;
+            this.Q9Btn0.Text = "Вариант А";
+            this.Q9Btn0.UseVisualStyleBackColor = true;
+            this.Q9Btn0.Click += new System.EventHandler(this.Q9Btn0_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(189, 97);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(253, 206);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // label44
             // 
             this.label44.AutoSize = true;
@@ -1461,71 +1586,6 @@
             this.label49.TabIndex = 3;
             this.label49.Text = "9. На каких уровнях давление жидкости в сообщающихся сосудах одинаково?";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(189, 97);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(253, 206);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Q9Btn0
-            // 
-            this.Q9Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q9Btn0.Location = new System.Drawing.Point(265, 395);
-            this.Q9Btn0.Name = "Q9Btn0";
-            this.Q9Btn0.Size = new System.Drawing.Size(177, 44);
-            this.Q9Btn0.TabIndex = 13;
-            this.Q9Btn0.Text = "Вариант А";
-            this.Q9Btn0.UseVisualStyleBackColor = true;
-            this.Q9Btn0.Click += new System.EventHandler(this.Q9Btn0_Click);
-            // 
-            // Q9Btn1
-            // 
-            this.Q9Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q9Btn1.Location = new System.Drawing.Point(487, 395);
-            this.Q9Btn1.Name = "Q9Btn1";
-            this.Q9Btn1.Size = new System.Drawing.Size(177, 44);
-            this.Q9Btn1.TabIndex = 13;
-            this.Q9Btn1.Text = "Вариант Б";
-            this.Q9Btn1.UseVisualStyleBackColor = true;
-            this.Q9Btn1.Click += new System.EventHandler(this.Q9Btn1_Click);
-            // 
-            // Q9Btn2
-            // 
-            this.Q9Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q9Btn2.Location = new System.Drawing.Point(265, 445);
-            this.Q9Btn2.Name = "Q9Btn2";
-            this.Q9Btn2.Size = new System.Drawing.Size(177, 44);
-            this.Q9Btn2.TabIndex = 13;
-            this.Q9Btn2.Text = "Вариант В";
-            this.Q9Btn2.UseVisualStyleBackColor = true;
-            this.Q9Btn2.Click += new System.EventHandler(this.Q9Btn2_Click);
-            // 
-            // Q9Btn4
-            // 
-            this.Q9Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q9Btn4.Location = new System.Drawing.Point(383, 495);
-            this.Q9Btn4.Name = "Q9Btn4";
-            this.Q9Btn4.Size = new System.Drawing.Size(177, 44);
-            this.Q9Btn4.TabIndex = 13;
-            this.Q9Btn4.Text = "Вариант Д";
-            this.Q9Btn4.UseVisualStyleBackColor = true;
-            this.Q9Btn4.Click += new System.EventHandler(this.Q9Btn4_Click);
-            // 
-            // Q9Btn3
-            // 
-            this.Q9Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q9Btn3.Location = new System.Drawing.Point(487, 445);
-            this.Q9Btn3.Name = "Q9Btn3";
-            this.Q9Btn3.Size = new System.Drawing.Size(177, 44);
-            this.Q9Btn3.TabIndex = 13;
-            this.Q9Btn3.Text = "Вариант Г";
-            this.Q9Btn3.UseVisualStyleBackColor = true;
-            this.Q9Btn3.Click += new System.EventHandler(this.Q9Btn3_Click);
-            // 
             // tabPage10
             // 
             this.tabPage10.Controls.Add(this.page10);
@@ -1553,6 +1613,61 @@
             this.page10.Name = "page10";
             this.page10.Size = new System.Drawing.Size(925, 570);
             this.page10.TabIndex = 17;
+            // 
+            // Q10Btn4
+            // 
+            this.Q10Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q10Btn4.Location = new System.Drawing.Point(601, 326);
+            this.Q10Btn4.Name = "Q10Btn4";
+            this.Q10Btn4.Size = new System.Drawing.Size(177, 44);
+            this.Q10Btn4.TabIndex = 11;
+            this.Q10Btn4.Text = "Вариант Д";
+            this.Q10Btn4.UseVisualStyleBackColor = true;
+            this.Q10Btn4.Click += new System.EventHandler(this.Q10Btn4_Click);
+            // 
+            // Q10Btn3
+            // 
+            this.Q10Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q10Btn3.Location = new System.Drawing.Point(601, 276);
+            this.Q10Btn3.Name = "Q10Btn3";
+            this.Q10Btn3.Size = new System.Drawing.Size(177, 44);
+            this.Q10Btn3.TabIndex = 11;
+            this.Q10Btn3.Text = "Вариант Г";
+            this.Q10Btn3.UseVisualStyleBackColor = true;
+            this.Q10Btn3.Click += new System.EventHandler(this.Q10Btn3_Click);
+            // 
+            // Q10Btn2
+            // 
+            this.Q10Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q10Btn2.Location = new System.Drawing.Point(601, 226);
+            this.Q10Btn2.Name = "Q10Btn2";
+            this.Q10Btn2.Size = new System.Drawing.Size(177, 44);
+            this.Q10Btn2.TabIndex = 11;
+            this.Q10Btn2.Text = "Вариант В";
+            this.Q10Btn2.UseVisualStyleBackColor = true;
+            this.Q10Btn2.Click += new System.EventHandler(this.Q10Btn2_Click);
+            // 
+            // Q10Btn1
+            // 
+            this.Q10Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q10Btn1.Location = new System.Drawing.Point(601, 176);
+            this.Q10Btn1.Name = "Q10Btn1";
+            this.Q10Btn1.Size = new System.Drawing.Size(177, 44);
+            this.Q10Btn1.TabIndex = 11;
+            this.Q10Btn1.Text = "Вариант Б";
+            this.Q10Btn1.UseVisualStyleBackColor = true;
+            this.Q10Btn1.Click += new System.EventHandler(this.Q10Btn1_Click);
+            // 
+            // Q10Btn0
+            // 
+            this.Q10Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q10Btn0.Location = new System.Drawing.Point(601, 126);
+            this.Q10Btn0.Name = "Q10Btn0";
+            this.Q10Btn0.Size = new System.Drawing.Size(177, 44);
+            this.Q10Btn0.TabIndex = 11;
+            this.Q10Btn0.Text = "Вариант А";
+            this.Q10Btn0.UseVisualStyleBackColor = true;
+            this.Q10Btn0.Click += new System.EventHandler(this.Q10Btn0_Click);
             // 
             // label50
             // 
@@ -1615,60 +1730,502 @@
             this.label55.TabIndex = 3;
             this.label55.Text = "10. От чего зависит действие жидкости на погруженное в нее тело?";
             // 
-            // Q10Btn0
+            // tabPage11
             // 
-            this.Q10Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q10Btn0.Location = new System.Drawing.Point(601, 126);
-            this.Q10Btn0.Name = "Q10Btn0";
-            this.Q10Btn0.Size = new System.Drawing.Size(177, 44);
-            this.Q10Btn0.TabIndex = 11;
-            this.Q10Btn0.Text = "Вариант А";
-            this.Q10Btn0.UseVisualStyleBackColor = true;
-            this.Q10Btn0.Click += new System.EventHandler(this.Q10Btn0_Click);
+            this.tabPage11.Controls.Add(this.page11);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Size = new System.Drawing.Size(925, 600);
+            this.tabPage11.TabIndex = 11;
+            this.tabPage11.Text = "Вопрос 11";
+            this.tabPage11.UseVisualStyleBackColor = true;
             // 
-            // Q10Btn1
+            // page11
             // 
-            this.Q10Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q10Btn1.Location = new System.Drawing.Point(601, 176);
-            this.Q10Btn1.Name = "Q10Btn1";
-            this.Q10Btn1.Size = new System.Drawing.Size(177, 44);
-            this.Q10Btn1.TabIndex = 11;
-            this.Q10Btn1.Text = "Вариант Б";
-            this.Q10Btn1.UseVisualStyleBackColor = true;
-            this.Q10Btn1.Click += new System.EventHandler(this.Q10Btn1_Click);
+            this.page11.Controls.Add(this.Q11Btn1);
+            this.page11.Controls.Add(this.Q11Btn3);
+            this.page11.Controls.Add(this.Q11Btn4);
+            this.page11.Controls.Add(this.Q11Btn0);
+            this.page11.Controls.Add(this.Q11Btn2);
+            this.page11.Controls.Add(this.pictureBox2);
+            this.page11.Controls.Add(this.label56);
+            this.page11.Controls.Add(this.label63);
+            this.page11.Controls.Add(this.label64);
+            this.page11.Controls.Add(this.label65);
+            this.page11.Controls.Add(this.label66);
+            this.page11.Controls.Add(this.label67);
+            this.page11.Location = new System.Drawing.Point(0, 0);
+            this.page11.Name = "page11";
+            this.page11.Size = new System.Drawing.Size(925, 570);
+            this.page11.TabIndex = 20;
             // 
-            // Q10Btn2
+            // Q11Btn1
             // 
-            this.Q10Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q10Btn2.Location = new System.Drawing.Point(601, 226);
-            this.Q10Btn2.Name = "Q10Btn2";
-            this.Q10Btn2.Size = new System.Drawing.Size(177, 44);
-            this.Q10Btn2.TabIndex = 11;
-            this.Q10Btn2.Text = "Вариант В";
-            this.Q10Btn2.UseVisualStyleBackColor = true;
-            this.Q10Btn2.Click += new System.EventHandler(this.Q10Btn2_Click);
+            this.Q11Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q11Btn1.Location = new System.Drawing.Point(487, 395);
+            this.Q11Btn1.Name = "Q11Btn1";
+            this.Q11Btn1.Size = new System.Drawing.Size(177, 44);
+            this.Q11Btn1.TabIndex = 15;
+            this.Q11Btn1.Text = "Вариант Б";
+            this.Q11Btn1.UseVisualStyleBackColor = true;
+            this.Q11Btn1.Click += new System.EventHandler(this.Q11Btn1_Click);
             // 
-            // Q10Btn3
+            // Q11Btn3
             // 
-            this.Q10Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q10Btn3.Location = new System.Drawing.Point(601, 276);
-            this.Q10Btn3.Name = "Q10Btn3";
-            this.Q10Btn3.Size = new System.Drawing.Size(177, 44);
-            this.Q10Btn3.TabIndex = 11;
-            this.Q10Btn3.Text = "Вариант Г";
-            this.Q10Btn3.UseVisualStyleBackColor = true;
-            this.Q10Btn3.Click += new System.EventHandler(this.Q10Btn3_Click);
+            this.Q11Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q11Btn3.Location = new System.Drawing.Point(487, 445);
+            this.Q11Btn3.Name = "Q11Btn3";
+            this.Q11Btn3.Size = new System.Drawing.Size(177, 44);
+            this.Q11Btn3.TabIndex = 15;
+            this.Q11Btn3.Text = "Вариант Г";
+            this.Q11Btn3.UseVisualStyleBackColor = true;
+            this.Q11Btn3.Click += new System.EventHandler(this.Q11Btn3_Click);
             // 
-            // Q10Btn4
+            // Q11Btn4
             // 
-            this.Q10Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Q10Btn4.Location = new System.Drawing.Point(601, 326);
-            this.Q10Btn4.Name = "Q10Btn4";
-            this.Q10Btn4.Size = new System.Drawing.Size(177, 44);
-            this.Q10Btn4.TabIndex = 11;
-            this.Q10Btn4.Text = "Вариант Д";
-            this.Q10Btn4.UseVisualStyleBackColor = true;
-            this.Q10Btn4.Click += new System.EventHandler(this.Q10Btn4_Click);
+            this.Q11Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q11Btn4.Location = new System.Drawing.Point(381, 495);
+            this.Q11Btn4.Name = "Q11Btn4";
+            this.Q11Btn4.Size = new System.Drawing.Size(177, 44);
+            this.Q11Btn4.TabIndex = 15;
+            this.Q11Btn4.Text = "Вариант Д";
+            this.Q11Btn4.UseVisualStyleBackColor = true;
+            this.Q11Btn4.Click += new System.EventHandler(this.Q11Btn4_Click);
+            // 
+            // Q11Btn0
+            // 
+            this.Q11Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q11Btn0.Location = new System.Drawing.Point(265, 395);
+            this.Q11Btn0.Name = "Q11Btn0";
+            this.Q11Btn0.Size = new System.Drawing.Size(177, 44);
+            this.Q11Btn0.TabIndex = 15;
+            this.Q11Btn0.Text = "Вариант А";
+            this.Q11Btn0.UseVisualStyleBackColor = true;
+            this.Q11Btn0.Click += new System.EventHandler(this.Q11Btn0_Click);
+            // 
+            // Q11Btn2
+            // 
+            this.Q11Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Q11Btn2.Location = new System.Drawing.Point(265, 445);
+            this.Q11Btn2.Name = "Q11Btn2";
+            this.Q11Btn2.Size = new System.Drawing.Size(177, 44);
+            this.Q11Btn2.TabIndex = 15;
+            this.Q11Btn2.Text = "Вариант В";
+            this.Q11Btn2.UseVisualStyleBackColor = true;
+            this.Q11Btn2.Click += new System.EventHandler(this.Q11Btn2_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(198, 150);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(244, 144);
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label56.Location = new System.Drawing.Point(483, 285);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(344, 20);
+            this.label56.TabIndex = 5;
+            this.label56.Text = "Д) зависит от глубины погружения тел.";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label63.Location = new System.Drawing.Point(483, 248);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(272, 20);
+            this.label63.TabIndex = 5;
+            this.label63.Text = "Г) зависит от рода жидкостей;";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label64.Location = new System.Drawing.Point(483, 210);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(248, 20);
+            this.label64.TabIndex = 6;
+            this.label64.Text = "В) тело 2 перевесит тело 1;";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label65.Location = new System.Drawing.Point(483, 172);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(248, 20);
+            this.label65.TabIndex = 7;
+            this.label65.Text = "Б) тело 1 перевесит тело 2;";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label66.Location = new System.Drawing.Point(483, 134);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(70, 20);
+            this.label66.TabIndex = 8;
+            this.label66.Text = "А) Нет;";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label67.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label67.Location = new System.Drawing.Point(90, 21);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(745, 48);
+            this.label67.TabIndex = 3;
+            this.label67.Text = "11. Изменится ли равновесие весов, если тела равной массы, но разного\r\n          " +
+    "                                  объема опустить в воду?";
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Size = new System.Drawing.Size(925, 600);
+            this.tabPage12.TabIndex = 12;
+            this.tabPage12.Text = "Вопрос 12";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Size = new System.Drawing.Size(925, 600);
+            this.tabPage13.TabIndex = 13;
+            this.tabPage13.Text = "Вопрос 13";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Size = new System.Drawing.Size(925, 600);
+            this.tabPage14.TabIndex = 14;
+            this.tabPage14.Text = "Вопрос 14";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Location = new System.Drawing.Point(4, 22);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Size = new System.Drawing.Size(925, 600);
+            this.tabPage15.TabIndex = 15;
+            this.tabPage15.Text = "Вопрос 15";
+            this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // tabPage16
+            // 
+            this.tabPage16.Location = new System.Drawing.Point(4, 22);
+            this.tabPage16.Name = "tabPage16";
+            this.tabPage16.Size = new System.Drawing.Size(925, 600);
+            this.tabPage16.TabIndex = 16;
+            this.tabPage16.Text = "Вопрос 16";
+            this.tabPage16.UseVisualStyleBackColor = true;
+            // 
+            // tabPage17
+            // 
+            this.tabPage17.Location = new System.Drawing.Point(4, 22);
+            this.tabPage17.Name = "tabPage17";
+            this.tabPage17.Size = new System.Drawing.Size(925, 600);
+            this.tabPage17.TabIndex = 17;
+            this.tabPage17.Text = "Вопрос 17";
+            this.tabPage17.UseVisualStyleBackColor = true;
+            // 
+            // tabPage18
+            // 
+            this.tabPage18.Location = new System.Drawing.Point(4, 22);
+            this.tabPage18.Name = "tabPage18";
+            this.tabPage18.Size = new System.Drawing.Size(925, 600);
+            this.tabPage18.TabIndex = 18;
+            this.tabPage18.Text = "Вопрос 18";
+            this.tabPage18.UseVisualStyleBackColor = true;
+            // 
+            // tabPage19
+            // 
+            this.tabPage19.Location = new System.Drawing.Point(4, 22);
+            this.tabPage19.Name = "tabPage19";
+            this.tabPage19.Size = new System.Drawing.Size(925, 600);
+            this.tabPage19.TabIndex = 19;
+            this.tabPage19.Text = "Вопрос 19";
+            this.tabPage19.UseVisualStyleBackColor = true;
+            // 
+            // tabPage20
+            // 
+            this.tabPage20.Location = new System.Drawing.Point(4, 22);
+            this.tabPage20.Name = "tabPage20";
+            this.tabPage20.Size = new System.Drawing.Size(925, 600);
+            this.tabPage20.TabIndex = 20;
+            this.tabPage20.Text = "Вопрос 20";
+            this.tabPage20.UseVisualStyleBackColor = true;
+            // 
+            // tabPage21
+            // 
+            this.tabPage21.Controls.Add(this.result2);
+            this.tabPage21.Controls.Add(this.result1);
+            this.tabPage21.Controls.Add(this.result19);
+            this.tabPage21.Controls.Add(this.result18);
+            this.tabPage21.Controls.Add(this.result17);
+            this.tabPage21.Controls.Add(this.result16);
+            this.tabPage21.Controls.Add(this.result15);
+            this.tabPage21.Controls.Add(this.result14);
+            this.tabPage21.Controls.Add(this.result13);
+            this.tabPage21.Controls.Add(this.result12);
+            this.tabPage21.Controls.Add(this.result11);
+            this.tabPage21.Controls.Add(this.result10);
+            this.tabPage21.Controls.Add(this.result9);
+            this.tabPage21.Controls.Add(this.result8);
+            this.tabPage21.Controls.Add(this.result7);
+            this.tabPage21.Controls.Add(this.result6);
+            this.tabPage21.Controls.Add(this.result5);
+            this.tabPage21.Controls.Add(this.result4);
+            this.tabPage21.Controls.Add(this.result3);
+            this.tabPage21.Controls.Add(this.result0);
+            this.tabPage21.Controls.Add(this.listBox1);
+            this.tabPage21.Location = new System.Drawing.Point(4, 22);
+            this.tabPage21.Name = "tabPage21";
+            this.tabPage21.Size = new System.Drawing.Size(925, 600);
+            this.tabPage21.TabIndex = 21;
+            this.tabPage21.Text = "Результаты";
+            this.tabPage21.UseVisualStyleBackColor = true;
+            // 
+            // result2
+            // 
+            this.result2.AutoSize = true;
+            this.result2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result2.Location = new System.Drawing.Point(710, 53);
+            this.result2.Name = "result2";
+            this.result2.Size = new System.Drawing.Size(161, 20);
+            this.result2.TabIndex = 1;
+            this.result2.Text = "Ответ не получен";
+            // 
+            // result1
+            // 
+            this.result1.AutoSize = true;
+            this.result1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result1.Location = new System.Drawing.Point(710, 29);
+            this.result1.Name = "result1";
+            this.result1.Size = new System.Drawing.Size(161, 20);
+            this.result1.TabIndex = 1;
+            this.result1.Text = "Ответ не получен";
+            // 
+            // result10
+            // 
+            this.result10.AutoSize = true;
+            this.result10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result10.Location = new System.Drawing.Point(710, 245);
+            this.result10.Name = "result10";
+            this.result10.Size = new System.Drawing.Size(161, 20);
+            this.result10.TabIndex = 1;
+            this.result10.Text = "Ответ не получен";
+            // 
+            // result9
+            // 
+            this.result9.AutoSize = true;
+            this.result9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result9.Location = new System.Drawing.Point(710, 221);
+            this.result9.Name = "result9";
+            this.result9.Size = new System.Drawing.Size(161, 20);
+            this.result9.TabIndex = 1;
+            this.result9.Text = "Ответ не получен";
+            // 
+            // result8
+            // 
+            this.result8.AutoSize = true;
+            this.result8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result8.Location = new System.Drawing.Point(710, 197);
+            this.result8.Name = "result8";
+            this.result8.Size = new System.Drawing.Size(161, 20);
+            this.result8.TabIndex = 1;
+            this.result8.Text = "Ответ не получен";
+            // 
+            // result7
+            // 
+            this.result7.AutoSize = true;
+            this.result7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result7.Location = new System.Drawing.Point(710, 173);
+            this.result7.Name = "result7";
+            this.result7.Size = new System.Drawing.Size(161, 20);
+            this.result7.TabIndex = 1;
+            this.result7.Text = "Ответ не получен";
+            // 
+            // result6
+            // 
+            this.result6.AutoSize = true;
+            this.result6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result6.Location = new System.Drawing.Point(710, 149);
+            this.result6.Name = "result6";
+            this.result6.Size = new System.Drawing.Size(161, 20);
+            this.result6.TabIndex = 1;
+            this.result6.Text = "Ответ не получен";
+            // 
+            // result5
+            // 
+            this.result5.AutoSize = true;
+            this.result5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result5.Location = new System.Drawing.Point(710, 125);
+            this.result5.Name = "result5";
+            this.result5.Size = new System.Drawing.Size(161, 20);
+            this.result5.TabIndex = 1;
+            this.result5.Text = "Ответ не получен";
+            // 
+            // result3
+            // 
+            this.result3.AutoSize = true;
+            this.result3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result3.Location = new System.Drawing.Point(710, 77);
+            this.result3.Name = "result3";
+            this.result3.Size = new System.Drawing.Size(161, 20);
+            this.result3.TabIndex = 1;
+            this.result3.Text = "Ответ не получен";
+            // 
+            // result0
+            // 
+            this.result0.AutoSize = true;
+            this.result0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result0.Location = new System.Drawing.Point(710, 5);
+            this.result0.Name = "result0";
+            this.result0.Size = new System.Drawing.Size(161, 20);
+            this.result0.TabIndex = 1;
+            this.result0.Text = "Ответ не получен";
+            // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 24;
+            this.listBox1.Items.AddRange(new object[] {
+            "1 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "2 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "3 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "4 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "5 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "6 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "7 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "8 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "9 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "10 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "11 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "12 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "13 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "14 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "15 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "16 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "17 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "18 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "19 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
+            "20 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос"});
+            this.listBox1.Location = new System.Drawing.Point(0, 0);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(925, 580);
+            this.listBox1.TabIndex = 0;
+            // 
+            // result4
+            // 
+            this.result4.AutoSize = true;
+            this.result4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result4.Location = new System.Drawing.Point(710, 101);
+            this.result4.Name = "result4";
+            this.result4.Size = new System.Drawing.Size(161, 20);
+            this.result4.TabIndex = 1;
+            this.result4.Text = "Ответ не получен";
+            // 
+            // result11
+            // 
+            this.result11.AutoSize = true;
+            this.result11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result11.Location = new System.Drawing.Point(710, 269);
+            this.result11.Name = "result11";
+            this.result11.Size = new System.Drawing.Size(161, 20);
+            this.result11.TabIndex = 1;
+            this.result11.Text = "Ответ не получен";
+            // 
+            // result12
+            // 
+            this.result12.AutoSize = true;
+            this.result12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result12.Location = new System.Drawing.Point(710, 293);
+            this.result12.Name = "result12";
+            this.result12.Size = new System.Drawing.Size(161, 20);
+            this.result12.TabIndex = 1;
+            this.result12.Text = "Ответ не получен";
+            // 
+            // result13
+            // 
+            this.result13.AutoSize = true;
+            this.result13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result13.Location = new System.Drawing.Point(710, 317);
+            this.result13.Name = "result13";
+            this.result13.Size = new System.Drawing.Size(161, 20);
+            this.result13.TabIndex = 1;
+            this.result13.Text = "Ответ не получен";
+            // 
+            // result14
+            // 
+            this.result14.AutoSize = true;
+            this.result14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result14.Location = new System.Drawing.Point(710, 341);
+            this.result14.Name = "result14";
+            this.result14.Size = new System.Drawing.Size(161, 20);
+            this.result14.TabIndex = 1;
+            this.result14.Text = "Ответ не получен";
+            // 
+            // result15
+            // 
+            this.result15.AutoSize = true;
+            this.result15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result15.Location = new System.Drawing.Point(710, 365);
+            this.result15.Name = "result15";
+            this.result15.Size = new System.Drawing.Size(161, 20);
+            this.result15.TabIndex = 1;
+            this.result15.Text = "Ответ не получен";
+            // 
+            // result16
+            // 
+            this.result16.AutoSize = true;
+            this.result16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result16.Location = new System.Drawing.Point(710, 389);
+            this.result16.Name = "result16";
+            this.result16.Size = new System.Drawing.Size(161, 20);
+            this.result16.TabIndex = 1;
+            this.result16.Text = "Ответ не получен";
+            // 
+            // result17
+            // 
+            this.result17.AutoSize = true;
+            this.result17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result17.Location = new System.Drawing.Point(710, 413);
+            this.result17.Name = "result17";
+            this.result17.Size = new System.Drawing.Size(161, 20);
+            this.result17.TabIndex = 1;
+            this.result17.Text = "Ответ не получен";
+            // 
+            // result18
+            // 
+            this.result18.AutoSize = true;
+            this.result18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result18.Location = new System.Drawing.Point(710, 437);
+            this.result18.Name = "result18";
+            this.result18.Size = new System.Drawing.Size(161, 20);
+            this.result18.TabIndex = 1;
+            this.result18.Text = "Ответ не получен";
+            // 
+            // result19
+            // 
+            this.result19.AutoSize = true;
+            this.result19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result19.Location = new System.Drawing.Point(710, 461);
+            this.result19.Name = "result19";
+            this.result19.Size = new System.Drawing.Size(161, 20);
+            this.result19.TabIndex = 1;
+            this.result19.Text = "Ответ не получен";
             // 
             // Form1
             // 
@@ -1711,6 +2268,12 @@
             this.tabPage10.ResumeLayout(false);
             this.page10.ResumeLayout(false);
             this.page10.PerformLayout();
+            this.tabPage11.ResumeLayout(false);
+            this.page11.ResumeLayout(false);
+            this.page11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabPage21.ResumeLayout(false);
+            this.tabPage21.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1849,6 +2412,51 @@
         private System.Windows.Forms.Button Q10Btn2;
         private System.Windows.Forms.Button Q10Btn1;
         private System.Windows.Forms.Button Q10Btn0;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.TabPage tabPage15;
+        private System.Windows.Forms.TabPage tabPage16;
+        private System.Windows.Forms.TabPage tabPage17;
+        private System.Windows.Forms.TabPage tabPage18;
+        private System.Windows.Forms.TabPage tabPage19;
+        private System.Windows.Forms.TabPage tabPage20;
+        private System.Windows.Forms.TabPage tabPage21;
+        private System.Windows.Forms.Panel page11;
+        private System.Windows.Forms.Button Q11Btn1;
+        private System.Windows.Forms.Button Q11Btn3;
+        private System.Windows.Forms.Button Q11Btn4;
+        private System.Windows.Forms.Button Q11Btn0;
+        private System.Windows.Forms.Button Q11Btn2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label result2;
+        private System.Windows.Forms.Label result1;
+        private System.Windows.Forms.Label result10;
+        private System.Windows.Forms.Label result9;
+        private System.Windows.Forms.Label result8;
+        private System.Windows.Forms.Label result7;
+        private System.Windows.Forms.Label result6;
+        private System.Windows.Forms.Label result5;
+        private System.Windows.Forms.Label result3;
+        private System.Windows.Forms.Label result0;
+        private System.Windows.Forms.Label result12;
+        private System.Windows.Forms.Label result11;
+        private System.Windows.Forms.Label result4;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label result19;
+        private System.Windows.Forms.Label result18;
+        private System.Windows.Forms.Label result17;
+        private System.Windows.Forms.Label result16;
+        private System.Windows.Forms.Label result15;
+        private System.Windows.Forms.Label result14;
+        private System.Windows.Forms.Label result13;
     }
 }
 
