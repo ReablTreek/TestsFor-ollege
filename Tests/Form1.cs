@@ -14,7 +14,44 @@ namespace Tests
     public partial class Form1 : Form
     {
         bool[] q = new bool[20];
-               
+
+        //Q12BtnS
+
+        private void Q12Btn0_Click(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tabPage13);
+            tabControl1.TabPages.Remove(tabPage12);
+            TotalResut();
+        }
+
+        private void Q12Btn1_Click(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tabPage13);
+            tabControl1.TabPages.Remove(tabPage12);
+            TotalResut();
+        }
+
+        private void Q12Btn2_Click(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tabPage13);
+            tabControl1.TabPages.Remove(tabPage12);
+            TotalResut();
+        }
+
+        private void Q12Btn3_Click(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tabPage13);
+            tabControl1.TabPages.Remove(tabPage12);
+            q[11] = true;
+            TotalResut();
+        }
+
+        private void Q12Btn4_Click(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tabPage13);
+            tabControl1.TabPages.Remove(tabPage12);
+            TotalResut();
+        }
 
         //Q11Btns
 
@@ -444,5 +481,6 @@ namespace Tests
                 }
             }
         }
+
     }
 }
