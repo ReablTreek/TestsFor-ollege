@@ -1,0 +1,10 @@
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\bin\Release\Tests.exe.config
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\bin\Release\Tests.exe
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\bin\Release\Tests.pdb
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.csprojAssemblyReference.cache
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.Form1.resources
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.Properties.Resources.resources
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.csproj.GenerateResource.cache
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.csproj.CoreCompileInputs.cache
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.exe
+D:\Work\C#\Тесты для базы\TestsForCollege\Tests\obj\Release\Tests.pdb

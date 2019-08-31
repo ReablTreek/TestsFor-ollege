@@ -29,6 +29,8 @@
         public void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.page1 = new System.Windows.Forms.Panel();
             this.Q1Btn1 = new System.Windows.Forms.Button();
             this.Q1Btn3 = new System.Windows.Forms.Button();
@@ -226,8 +228,6 @@
             this.label86 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
             this.tabPage16 = new System.Windows.Forms.TabPage();
-            this.tabPage17 = new System.Windows.Forms.TabPage();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
             this.page16 = new System.Windows.Forms.Panel();
             this.Q16Btn4 = new System.Windows.Forms.Button();
             this.Q16Btn3 = new System.Windows.Forms.Button();
@@ -240,7 +240,9 @@
             this.label91 = new System.Windows.Forms.Label();
             this.label92 = new System.Windows.Forms.Label();
             this.label93 = new System.Windows.Forms.Label();
+            this.tabPage17 = new System.Windows.Forms.TabPage();
             this.page17 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.Q17Btn4 = new System.Windows.Forms.Button();
             this.Q17Btn3 = new System.Windows.Forms.Button();
             this.Q17Btn2 = new System.Windows.Forms.Button();
@@ -248,7 +250,7 @@
             this.Q17Btn1 = new System.Windows.Forms.Button();
             this.label99 = new System.Windows.Forms.Label();
             this.label100 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.tabPage18 = new System.Windows.Forms.TabPage();
             this.page18 = new System.Windows.Forms.Panel();
             this.Q18Btn4 = new System.Windows.Forms.Button();
             this.Q18Btn3 = new System.Windows.Forms.Button();
@@ -261,26 +263,29 @@
             this.label97 = new System.Windows.Forms.Label();
             this.label98 = new System.Windows.Forms.Label();
             this.label101 = new System.Windows.Forms.Label();
-            this.result0 = new System.Windows.Forms.Label();
-            this.result3 = new System.Windows.Forms.Label();
-            this.result4 = new System.Windows.Forms.Label();
-            this.result5 = new System.Windows.Forms.Label();
-            this.result6 = new System.Windows.Forms.Label();
-            this.result7 = new System.Windows.Forms.Label();
-            this.result8 = new System.Windows.Forms.Label();
-            this.result9 = new System.Windows.Forms.Label();
-            this.result10 = new System.Windows.Forms.Label();
-            this.result11 = new System.Windows.Forms.Label();
-            this.result12 = new System.Windows.Forms.Label();
-            this.result13 = new System.Windows.Forms.Label();
-            this.result14 = new System.Windows.Forms.Label();
-            this.result15 = new System.Windows.Forms.Label();
-            this.result16 = new System.Windows.Forms.Label();
-            this.result17 = new System.Windows.Forms.Label();
-            this.result1 = new System.Windows.Forms.Label();
-            this.result2 = new System.Windows.Forms.Label();
             this.tabPage19 = new System.Windows.Forms.TabPage();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.gridData = new System.Windows.Forms.DataGridView();
+            this.result2 = new System.Windows.Forms.Label();
+            this.result1 = new System.Windows.Forms.Label();
+            this.result17 = new System.Windows.Forms.Label();
+            this.result16 = new System.Windows.Forms.Label();
+            this.result15 = new System.Windows.Forms.Label();
+            this.result14 = new System.Windows.Forms.Label();
+            this.result13 = new System.Windows.Forms.Label();
+            this.result12 = new System.Windows.Forms.Label();
+            this.result11 = new System.Windows.Forms.Label();
+            this.result10 = new System.Windows.Forms.Label();
+            this.result9 = new System.Windows.Forms.Label();
+            this.result8 = new System.Windows.Forms.Label();
+            this.result7 = new System.Windows.Forms.Label();
+            this.result6 = new System.Windows.Forms.Label();
+            this.result5 = new System.Windows.Forms.Label();
+            this.result4 = new System.Windows.Forms.Label();
+            this.result3 = new System.Windows.Forms.Label();
+            this.result0 = new System.Windows.Forms.Label();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.result18 = new System.Windows.Forms.Label();
             this.page1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -317,13 +322,14 @@
             this.tabPage15.SuspendLayout();
             this.page15.SuspendLayout();
             this.tabPage16.SuspendLayout();
-            this.tabPage17.SuspendLayout();
-            this.tabPage18.SuspendLayout();
             this.page16.SuspendLayout();
+            this.tabPage17.SuspendLayout();
             this.page17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.tabPage18.SuspendLayout();
             this.page18.SuspendLayout();
             this.tabPage19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridData)).BeginInit();
             this.SuspendLayout();
             // 
             // page1
@@ -2544,26 +2550,6 @@
             this.tabPage16.Text = "Вопрос 16";
             this.tabPage16.UseVisualStyleBackColor = true;
             // 
-            // tabPage17
-            // 
-            this.tabPage17.Controls.Add(this.page17);
-            this.tabPage17.Location = new System.Drawing.Point(4, 22);
-            this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Size = new System.Drawing.Size(925, 600);
-            this.tabPage17.TabIndex = 17;
-            this.tabPage17.Text = "Вопрос 17";
-            this.tabPage17.UseVisualStyleBackColor = true;
-            // 
-            // tabPage18
-            // 
-            this.tabPage18.Controls.Add(this.page18);
-            this.tabPage18.Location = new System.Drawing.Point(4, 22);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Size = new System.Drawing.Size(925, 600);
-            this.tabPage18.TabIndex = 18;
-            this.tabPage18.Text = "Вопрос 18";
-            this.tabPage18.UseVisualStyleBackColor = true;
-            // 
             // page16
             // 
             this.page16.Controls.Add(this.Q16Btn4);
@@ -2699,6 +2685,16 @@
             this.label93.Text = "16. Чему равна архимедова сила, если тело объемом 0,01 м3 полностью \r\n           " +
     "         находится в воде? Плотность воды 1000 кг/м3.";
             // 
+            // tabPage17
+            // 
+            this.tabPage17.Controls.Add(this.page17);
+            this.tabPage17.Location = new System.Drawing.Point(4, 22);
+            this.tabPage17.Name = "tabPage17";
+            this.tabPage17.Size = new System.Drawing.Size(925, 600);
+            this.tabPage17.TabIndex = 17;
+            this.tabPage17.Text = "Вопрос 17";
+            this.tabPage17.UseVisualStyleBackColor = true;
+            // 
             // page17
             // 
             this.page17.Controls.Add(this.pictureBox5);
@@ -2713,6 +2709,15 @@
             this.page17.Name = "page17";
             this.page17.Size = new System.Drawing.Size(925, 570);
             this.page17.TabIndex = 2;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(207, 159);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(511, 205);
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
             // 
             // Q17Btn4
             // 
@@ -2792,14 +2797,15 @@
             this.label100.TabIndex = 1;
             this.label100.Text = "IV. Применение знаний в усложненной ситуации";
             // 
-            // pictureBox5
+            // tabPage18
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(207, 159);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(511, 205);
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
+            this.tabPage18.Controls.Add(this.page18);
+            this.tabPage18.Location = new System.Drawing.Point(4, 22);
+            this.tabPage18.Name = "tabPage18";
+            this.tabPage18.Size = new System.Drawing.Size(925, 600);
+            this.tabPage18.TabIndex = 18;
+            this.tabPage18.Text = "Вопрос 18";
+            this.tabPage18.UseVisualStyleBackColor = true;
             // 
             // page18
             // 
@@ -2936,190 +2942,12 @@
             this.label101.TabIndex = 3;
             this.label101.Text = "18. Как с помощью закона Архимеда экспериментально определить объем тела?";
             // 
-            // result0
-            // 
-            this.result0.AutoSize = true;
-            this.result0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result0.Location = new System.Drawing.Point(710, 5);
-            this.result0.Name = "result0";
-            this.result0.Size = new System.Drawing.Size(161, 20);
-            this.result0.TabIndex = 1;
-            this.result0.Text = "Ответ не получен";
-            // 
-            // result3
-            // 
-            this.result3.AutoSize = true;
-            this.result3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result3.Location = new System.Drawing.Point(710, 77);
-            this.result3.Name = "result3";
-            this.result3.Size = new System.Drawing.Size(161, 20);
-            this.result3.TabIndex = 1;
-            this.result3.Text = "Ответ не получен";
-            // 
-            // result4
-            // 
-            this.result4.AutoSize = true;
-            this.result4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result4.Location = new System.Drawing.Point(710, 101);
-            this.result4.Name = "result4";
-            this.result4.Size = new System.Drawing.Size(161, 20);
-            this.result4.TabIndex = 1;
-            this.result4.Text = "Ответ не получен";
-            // 
-            // result5
-            // 
-            this.result5.AutoSize = true;
-            this.result5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result5.Location = new System.Drawing.Point(710, 125);
-            this.result5.Name = "result5";
-            this.result5.Size = new System.Drawing.Size(161, 20);
-            this.result5.TabIndex = 1;
-            this.result5.Text = "Ответ не получен";
-            // 
-            // result6
-            // 
-            this.result6.AutoSize = true;
-            this.result6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result6.Location = new System.Drawing.Point(710, 149);
-            this.result6.Name = "result6";
-            this.result6.Size = new System.Drawing.Size(161, 20);
-            this.result6.TabIndex = 1;
-            this.result6.Text = "Ответ не получен";
-            // 
-            // result7
-            // 
-            this.result7.AutoSize = true;
-            this.result7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result7.Location = new System.Drawing.Point(710, 173);
-            this.result7.Name = "result7";
-            this.result7.Size = new System.Drawing.Size(161, 20);
-            this.result7.TabIndex = 1;
-            this.result7.Text = "Ответ не получен";
-            // 
-            // result8
-            // 
-            this.result8.AutoSize = true;
-            this.result8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result8.Location = new System.Drawing.Point(710, 197);
-            this.result8.Name = "result8";
-            this.result8.Size = new System.Drawing.Size(161, 20);
-            this.result8.TabIndex = 1;
-            this.result8.Text = "Ответ не получен";
-            // 
-            // result9
-            // 
-            this.result9.AutoSize = true;
-            this.result9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result9.Location = new System.Drawing.Point(710, 221);
-            this.result9.Name = "result9";
-            this.result9.Size = new System.Drawing.Size(161, 20);
-            this.result9.TabIndex = 1;
-            this.result9.Text = "Ответ не получен";
-            // 
-            // result10
-            // 
-            this.result10.AutoSize = true;
-            this.result10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result10.Location = new System.Drawing.Point(710, 245);
-            this.result10.Name = "result10";
-            this.result10.Size = new System.Drawing.Size(161, 20);
-            this.result10.TabIndex = 1;
-            this.result10.Text = "Ответ не получен";
-            // 
-            // result11
-            // 
-            this.result11.AutoSize = true;
-            this.result11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result11.Location = new System.Drawing.Point(710, 269);
-            this.result11.Name = "result11";
-            this.result11.Size = new System.Drawing.Size(161, 20);
-            this.result11.TabIndex = 1;
-            this.result11.Text = "Ответ не получен";
-            // 
-            // result12
-            // 
-            this.result12.AutoSize = true;
-            this.result12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result12.Location = new System.Drawing.Point(710, 293);
-            this.result12.Name = "result12";
-            this.result12.Size = new System.Drawing.Size(161, 20);
-            this.result12.TabIndex = 1;
-            this.result12.Text = "Ответ не получен";
-            // 
-            // result13
-            // 
-            this.result13.AutoSize = true;
-            this.result13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result13.Location = new System.Drawing.Point(710, 317);
-            this.result13.Name = "result13";
-            this.result13.Size = new System.Drawing.Size(161, 20);
-            this.result13.TabIndex = 1;
-            this.result13.Text = "Ответ не получен";
-            // 
-            // result14
-            // 
-            this.result14.AutoSize = true;
-            this.result14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result14.Location = new System.Drawing.Point(710, 341);
-            this.result14.Name = "result14";
-            this.result14.Size = new System.Drawing.Size(161, 20);
-            this.result14.TabIndex = 1;
-            this.result14.Text = "Ответ не получен";
-            // 
-            // result15
-            // 
-            this.result15.AutoSize = true;
-            this.result15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result15.Location = new System.Drawing.Point(710, 365);
-            this.result15.Name = "result15";
-            this.result15.Size = new System.Drawing.Size(161, 20);
-            this.result15.TabIndex = 1;
-            this.result15.Text = "Ответ не получен";
-            // 
-            // result16
-            // 
-            this.result16.AutoSize = true;
-            this.result16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result16.Location = new System.Drawing.Point(710, 389);
-            this.result16.Name = "result16";
-            this.result16.Size = new System.Drawing.Size(161, 20);
-            this.result16.TabIndex = 1;
-            this.result16.Text = "Ответ не получен";
-            // 
-            // result17
-            // 
-            this.result17.AutoSize = true;
-            this.result17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result17.Location = new System.Drawing.Point(710, 413);
-            this.result17.Name = "result17";
-            this.result17.Size = new System.Drawing.Size(161, 20);
-            this.result17.TabIndex = 1;
-            this.result17.Text = "Ответ не получен";
-            // 
-            // result1
-            // 
-            this.result1.AutoSize = true;
-            this.result1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result1.Location = new System.Drawing.Point(710, 29);
-            this.result1.Name = "result1";
-            this.result1.Size = new System.Drawing.Size(161, 20);
-            this.result1.TabIndex = 1;
-            this.result1.Text = "Ответ не получен";
-            // 
-            // result2
-            // 
-            this.result2.AutoSize = true;
-            this.result2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.result2.Location = new System.Drawing.Point(710, 53);
-            this.result2.Name = "result2";
-            this.result2.Size = new System.Drawing.Size(161, 20);
-            this.result2.TabIndex = 1;
-            this.result2.Text = "Ответ не получен";
-            // 
             // tabPage19
             // 
+            this.tabPage19.Controls.Add(this.gridData);
             this.tabPage19.Controls.Add(this.result2);
             this.tabPage19.Controls.Add(this.result1);
+            this.tabPage19.Controls.Add(this.result18);
             this.tabPage19.Controls.Add(this.result17);
             this.tabPage19.Controls.Add(this.result16);
             this.tabPage19.Controls.Add(this.result15);
@@ -3136,7 +2964,6 @@
             this.tabPage19.Controls.Add(this.result4);
             this.tabPage19.Controls.Add(this.result3);
             this.tabPage19.Controls.Add(this.result0);
-            this.tabPage19.Controls.Add(this.listBox1);
             this.tabPage19.Location = new System.Drawing.Point(4, 22);
             this.tabPage19.Name = "tabPage19";
             this.tabPage19.Size = new System.Drawing.Size(925, 600);
@@ -3144,36 +2971,225 @@
             this.tabPage19.Text = "Результаты";
             this.tabPage19.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // gridData
             // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 24;
-            this.listBox1.Items.AddRange(new object[] {
-            "1 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "2 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "3 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "4 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "5 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "6 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "7 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "8 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "9 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "10 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "11 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "12 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "13 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "14 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "15 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "16 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "17 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "18 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "19 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос",
-            "20 Вопрос вопрос Вомпрос Вопрос Вопрос Вопрос Вомпрос Вопрос"});
-            this.listBox1.Location = new System.Drawing.Point(0, 0);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(925, 580);
-            this.listBox1.TabIndex = 0;
+            this.gridData.AllowUserToAddRows = false;
+            this.gridData.AllowUserToDeleteRows = false;
+            this.gridData.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
+            this.gridData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            this.gridData.Location = new System.Drawing.Point(0, 0);
+            this.gridData.Name = "gridData";
+            this.gridData.ReadOnly = true;
+            this.gridData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gridData.Size = new System.Drawing.Size(922, 594);
+            this.gridData.TabIndex = 2;
+            // 
+            // result2
+            // 
+            this.result2.AutoSize = true;
+            this.result2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result2.Location = new System.Drawing.Point(710, 53);
+            this.result2.Name = "result2";
+            this.result2.Size = new System.Drawing.Size(161, 20);
+            this.result2.TabIndex = 1;
+            this.result2.Text = "Ответ не получен";
+            // 
+            // result1
+            // 
+            this.result1.AutoSize = true;
+            this.result1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result1.Location = new System.Drawing.Point(710, 29);
+            this.result1.Name = "result1";
+            this.result1.Size = new System.Drawing.Size(161, 20);
+            this.result1.TabIndex = 1;
+            this.result1.Text = "Ответ не получен";
+            // 
+            // result17
+            // 
+            this.result17.AutoSize = true;
+            this.result17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result17.Location = new System.Drawing.Point(710, 413);
+            this.result17.Name = "result17";
+            this.result17.Size = new System.Drawing.Size(161, 20);
+            this.result17.TabIndex = 1;
+            this.result17.Text = "Ответ не получен";
+            // 
+            // result16
+            // 
+            this.result16.AutoSize = true;
+            this.result16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result16.Location = new System.Drawing.Point(710, 389);
+            this.result16.Name = "result16";
+            this.result16.Size = new System.Drawing.Size(161, 20);
+            this.result16.TabIndex = 1;
+            this.result16.Text = "Ответ не получен";
+            // 
+            // result15
+            // 
+            this.result15.AutoSize = true;
+            this.result15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result15.Location = new System.Drawing.Point(710, 365);
+            this.result15.Name = "result15";
+            this.result15.Size = new System.Drawing.Size(161, 20);
+            this.result15.TabIndex = 1;
+            this.result15.Text = "Ответ не получен";
+            // 
+            // result14
+            // 
+            this.result14.AutoSize = true;
+            this.result14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result14.Location = new System.Drawing.Point(710, 341);
+            this.result14.Name = "result14";
+            this.result14.Size = new System.Drawing.Size(161, 20);
+            this.result14.TabIndex = 1;
+            this.result14.Text = "Ответ не получен";
+            // 
+            // result13
+            // 
+            this.result13.AutoSize = true;
+            this.result13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result13.Location = new System.Drawing.Point(710, 317);
+            this.result13.Name = "result13";
+            this.result13.Size = new System.Drawing.Size(161, 20);
+            this.result13.TabIndex = 1;
+            this.result13.Text = "Ответ не получен";
+            // 
+            // result12
+            // 
+            this.result12.AutoSize = true;
+            this.result12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result12.Location = new System.Drawing.Point(710, 293);
+            this.result12.Name = "result12";
+            this.result12.Size = new System.Drawing.Size(161, 20);
+            this.result12.TabIndex = 1;
+            this.result12.Text = "Ответ не получен";
+            // 
+            // result11
+            // 
+            this.result11.AutoSize = true;
+            this.result11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result11.Location = new System.Drawing.Point(710, 269);
+            this.result11.Name = "result11";
+            this.result11.Size = new System.Drawing.Size(161, 20);
+            this.result11.TabIndex = 1;
+            this.result11.Text = "Ответ не получен";
+            // 
+            // result10
+            // 
+            this.result10.AutoSize = true;
+            this.result10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result10.Location = new System.Drawing.Point(710, 245);
+            this.result10.Name = "result10";
+            this.result10.Size = new System.Drawing.Size(161, 20);
+            this.result10.TabIndex = 1;
+            this.result10.Text = "Ответ не получен";
+            // 
+            // result9
+            // 
+            this.result9.AutoSize = true;
+            this.result9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result9.Location = new System.Drawing.Point(710, 221);
+            this.result9.Name = "result9";
+            this.result9.Size = new System.Drawing.Size(161, 20);
+            this.result9.TabIndex = 1;
+            this.result9.Text = "Ответ не получен";
+            // 
+            // result8
+            // 
+            this.result8.AutoSize = true;
+            this.result8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result8.Location = new System.Drawing.Point(710, 197);
+            this.result8.Name = "result8";
+            this.result8.Size = new System.Drawing.Size(161, 20);
+            this.result8.TabIndex = 1;
+            this.result8.Text = "Ответ не получен";
+            // 
+            // result7
+            // 
+            this.result7.AutoSize = true;
+            this.result7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result7.Location = new System.Drawing.Point(710, 173);
+            this.result7.Name = "result7";
+            this.result7.Size = new System.Drawing.Size(161, 20);
+            this.result7.TabIndex = 1;
+            this.result7.Text = "Ответ не получен";
+            // 
+            // result6
+            // 
+            this.result6.AutoSize = true;
+            this.result6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result6.Location = new System.Drawing.Point(710, 149);
+            this.result6.Name = "result6";
+            this.result6.Size = new System.Drawing.Size(161, 20);
+            this.result6.TabIndex = 1;
+            this.result6.Text = "Ответ не получен";
+            // 
+            // result5
+            // 
+            this.result5.AutoSize = true;
+            this.result5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result5.Location = new System.Drawing.Point(710, 125);
+            this.result5.Name = "result5";
+            this.result5.Size = new System.Drawing.Size(161, 20);
+            this.result5.TabIndex = 1;
+            this.result5.Text = "Ответ не получен";
+            // 
+            // result4
+            // 
+            this.result4.AutoSize = true;
+            this.result4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result4.Location = new System.Drawing.Point(710, 101);
+            this.result4.Name = "result4";
+            this.result4.Size = new System.Drawing.Size(161, 20);
+            this.result4.TabIndex = 1;
+            this.result4.Text = "Ответ не получен";
+            // 
+            // result3
+            // 
+            this.result3.AutoSize = true;
+            this.result3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result3.Location = new System.Drawing.Point(710, 77);
+            this.result3.Name = "result3";
+            this.result3.Size = new System.Drawing.Size(161, 20);
+            this.result3.TabIndex = 1;
+            this.result3.Text = "Ответ не получен";
+            // 
+            // result0
+            // 
+            this.result0.AutoSize = true;
+            this.result0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.result0.Location = new System.Drawing.Point(710, 5);
+            this.result0.Name = "result0";
+            this.result0.Size = new System.Drawing.Size(161, 20);
+            this.result0.TabIndex = 1;
+            this.result0.Text = "Ответ не получен";
+            // 
+            // Column1
+            // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Column1.HeaderText = "Вопрос";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 700;
+            // 
+            // Column2
+            // 
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Column2.HeaderText = "Результат";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 200;
             // 
             // Form1
             // 
@@ -3240,17 +3256,18 @@
             this.page15.ResumeLayout(false);
             this.page15.PerformLayout();
             this.tabPage16.ResumeLayout(false);
-            this.tabPage17.ResumeLayout(false);
-            this.tabPage18.ResumeLayout(false);
             this.page16.ResumeLayout(false);
             this.page16.PerformLayout();
+            this.tabPage17.ResumeLayout(false);
             this.page17.ResumeLayout(false);
             this.page17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.tabPage18.ResumeLayout(false);
             this.page18.ResumeLayout(false);
             this.page18.PerformLayout();
             this.tabPage19.ResumeLayout(false);
             this.tabPage19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridData)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3508,7 +3525,10 @@
         private System.Windows.Forms.Label result4;
         private System.Windows.Forms.Label result3;
         private System.Windows.Forms.Label result0;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.DataGridView gridData;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.Label result18;
     }
 }
 

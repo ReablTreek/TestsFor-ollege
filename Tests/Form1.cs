@@ -21,8 +21,8 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage19);
             tabControl1.TabPages.Remove(tabPage18);
-            TotalResut();
             q[17] = true;
+            TotalResut();
         }
 
         private void Q18Btn1_Click(object sender, EventArgs e)
@@ -59,14 +59,14 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage18);
             tabControl1.TabPages.Remove(tabPage17);
-            TotalResut();
+            
         }
 
         private void Q17Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage18);
             tabControl1.TabPages.Remove(tabPage17);
-            TotalResut();
+            
             q[16] = true;
         }
 
@@ -74,21 +74,21 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage18);
             tabControl1.TabPages.Remove(tabPage17);
-            TotalResut();
+            
         }
 
         private void Q17Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage18);
             tabControl1.TabPages.Remove(tabPage17);
-            TotalResut();
+            
         }
 
         private void Q17Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage18);
             tabControl1.TabPages.Remove(tabPage17);
-            TotalResut();
+            
         }
 
         //Q16Btns
@@ -97,14 +97,14 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage17);
             tabControl1.TabPages.Remove(tabPage16);
-            TotalResut();
+            
         }
 
         private void Q16Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage17);
             tabControl1.TabPages.Remove(tabPage16);
-            TotalResut();
+            
             q[15] = true;
         }
 
@@ -112,21 +112,21 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage17);
             tabControl1.TabPages.Remove(tabPage16);
-            TotalResut();
+            
         }
 
         private void Q16Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage17);
             tabControl1.TabPages.Remove(tabPage16);
-            TotalResut();
+            
         }
 
         private void Q16Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage17);
             tabControl1.TabPages.Remove(tabPage16);
-            TotalResut();
+            
         }
 
         //Q15Btns
@@ -135,21 +135,21 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage16);
             tabControl1.TabPages.Remove(tabPage15);
-            TotalResut();
+            
         }
 
         private void Q15Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage16);
             tabControl1.TabPages.Remove(tabPage15);
-            TotalResut();
+            
         }
 
         private void Q15Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage16);
             tabControl1.TabPages.Remove(tabPage15);
-            TotalResut();
+            
             q[14] = true;
         }
 
@@ -157,14 +157,14 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage16);
             tabControl1.TabPages.Remove(tabPage15);
-            TotalResut();
+            
         }
 
         private void Q15Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage16);
             tabControl1.TabPages.Remove(tabPage15);
-            TotalResut();
+            
         }
 
         //Q14Btns
@@ -173,21 +173,21 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage15);
             tabControl1.TabPages.Remove(tabPage14);
-            TotalResut();
+            
         }
 
         private void Q14Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage15);
             tabControl1.TabPages.Remove(tabPage14);
-            TotalResut();
+            
         }
 
         private void Q14Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage15);
             tabControl1.TabPages.Remove(tabPage14);
-            TotalResut();
+            
             q[13] = true;
         }
 
@@ -195,14 +195,14 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage15);
             tabControl1.TabPages.Remove(tabPage14);
-            TotalResut();
+            
         }
 
         private void Q14Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage15);
             tabControl1.TabPages.Remove(tabPage14);
-            TotalResut();
+            
         }
 
         //Q13Btns
@@ -210,14 +210,14 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage14);
             tabControl1.TabPages.Remove(tabPage13);
-            TotalResut();
+            
         }
 
         private void Q13Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage14);
             tabControl1.TabPages.Remove(tabPage13);
-            TotalResut();
+            
             q[12] = true;
         }
 
@@ -225,21 +225,21 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage14);
             tabControl1.TabPages.Remove(tabPage13);
-            TotalResut();
+            
         }
 
         private void Q13Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage14);
             tabControl1.TabPages.Remove(tabPage13);
-            TotalResut();
+            
         }
 
         private void Q13Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage14);
             tabControl1.TabPages.Remove(tabPage13);
-            TotalResut();
+            
         }
 
         //Q12BtnS
@@ -248,21 +248,21 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage13);
             tabControl1.TabPages.Remove(tabPage12);
-            TotalResut();
+            
         }
 
         private void Q12Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage13);
             tabControl1.TabPages.Remove(tabPage12);
-            TotalResut();
+            
         }
 
         private void Q12Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage13);
             tabControl1.TabPages.Remove(tabPage12);
-            TotalResut();
+            
         }
 
         private void Q12Btn3_Click(object sender, EventArgs e)
@@ -270,14 +270,14 @@ namespace Tests
             tabControl1.TabPages.Add(tabPage13);
             tabControl1.TabPages.Remove(tabPage12);
             q[11] = true;
-            TotalResut();
+            
         }
 
         private void Q12Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage13);
             tabControl1.TabPages.Remove(tabPage12);
-            TotalResut();
+            
         }
 
         //Q11Btns
@@ -286,7 +286,7 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage12);
             tabControl1.TabPages.Remove(tabPage11);
-            TotalResut();
+            
 
         }
 
@@ -295,28 +295,28 @@ namespace Tests
             q[10] = true;
             tabControl1.TabPages.Add(tabPage12);
             tabControl1.TabPages.Remove(tabPage11);
-            TotalResut();
+            
         }
 
         private void Q11Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage12);
             tabControl1.TabPages.Remove(tabPage11);
-            TotalResut();
+            
         }
 
         private void Q11Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage12);
             tabControl1.TabPages.Remove(tabPage11);
-            TotalResut();
+            
         }
 
         private void Q11Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage12);
             tabControl1.TabPages.Remove(tabPage11);
-            TotalResut();
+            
         }
 
         //Q10Btns
@@ -326,28 +326,28 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage11);
             tabControl1.TabPages.Remove(tabPage10);
-            TotalResut();
+            
         }
 
         private void Q10Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage11);
             tabControl1.TabPages.Remove(tabPage10);
-            TotalResut();
+            
         }
 
         private void Q10Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage11);
             tabControl1.TabPages.Remove(tabPage10);
-            TotalResut();
+            
         }
 
         private void Q10Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage11);
             tabControl1.TabPages.Remove(tabPage10);
-            TotalResut();
+            
             q[9] = true;
         }
 
@@ -355,7 +355,7 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage11);
             tabControl1.TabPages.Remove(tabPage10);
-            TotalResut();
+            
         }
 
 
@@ -367,31 +367,31 @@ namespace Tests
             q[8] = true;
             tabControl1.TabPages.Add(tabPage10);
             tabControl1.TabPages.Remove(tabPage9);
-            TotalResut();
+            
         }
         private void Q9Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage10);
             tabControl1.TabPages.Remove(tabPage9);
-            TotalResut();
+            
         }
         private void Q9Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage10);
             tabControl1.TabPages.Remove(tabPage9);
-            TotalResut();
+            
         }
         private void Q9Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage10);
             tabControl1.TabPages.Remove(tabPage9);
-            TotalResut();
+            
         }
         private void Q9Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage10);
             tabControl1.TabPages.Remove(tabPage9);
-            TotalResut();
+            
         }
 
         //Q8BtnS
@@ -400,32 +400,32 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage9);
             tabControl1.TabPages.Remove(tabPage8);
-            TotalResut();
+            
         }
         private void Q8Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage9);
             tabControl1.TabPages.Remove(tabPage8);
-            TotalResut();
+            
             q[7] = true;
         }
         private void Q8Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage9);
             tabControl1.TabPages.Remove(tabPage8);
-            TotalResut();
+            
         }
         private void Q8Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage9);
             tabControl1.TabPages.Remove(tabPage8);
-            TotalResut();
+            
         }
         private void Q8Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage9);
             tabControl1.TabPages.Remove(tabPage8);
-            TotalResut();
+            
         }
 
 
@@ -436,32 +436,32 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage8);
             tabControl1.TabPages.Remove(tabPage7);
-            TotalResut();
+            
             q[6] = true;
         }
         private void Q7Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage8);
             tabControl1.TabPages.Remove(tabPage7);
-            TotalResut();
+            
         }
         private void Q7Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage8);
             tabControl1.TabPages.Remove(tabPage7);
-            TotalResut();
+            
         }
         private void Q7Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage8);
             tabControl1.TabPages.Remove(tabPage7);
-            TotalResut();
+            
         }
         private void Q7Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage8);
             tabControl1.TabPages.Remove(tabPage7);
-            TotalResut();
+            
         }
 
 
@@ -473,27 +473,27 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage7);
             tabControl1.TabPages.Remove(tabPage6);
-            TotalResut();
+            
         }
 
         private void Q6Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage7);
             tabControl1.TabPages.Remove(tabPage6);
-            TotalResut();
+            
         }
         private void Q6Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage7);
             tabControl1.TabPages.Remove(tabPage6);
-            TotalResut();
+            
             q[5] = true;
         }
         private void Q6Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage7);
             tabControl1.TabPages.Remove(tabPage6);
-            TotalResut();
+            
         }
 
         //Q5BtnS
@@ -502,32 +502,32 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage6);
             tabControl1.TabPages.Remove(tabPage5);
-            TotalResut();
+            
             q[4] = true; 
         }
         private void Q5Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage6);
             tabControl1.TabPages.Remove(tabPage5);
-            TotalResut();
+            
         }
         private void Q5Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage6);
             tabControl1.TabPages.Remove(tabPage5);
-            TotalResut();
+            
         }
         private void Q5Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage6);
             tabControl1.TabPages.Remove(tabPage5);
-            TotalResut();
+            
         }
         private void Q5Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage6);
             tabControl1.TabPages.Remove(tabPage5);
-            TotalResut();
+            
         }
 
         //Q4BtnS
@@ -536,40 +536,40 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage5);
             tabControl1.TabPages.Remove(tabPage4);
-            TotalResut();
+            
         }
         private void Q4Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage5);
             tabControl1.TabPages.Remove(tabPage4);
-            TotalResut();
+            
             q[3] = true;
         }
         private void Q4Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage5);
             tabControl1.TabPages.Remove(tabPage4);
-            TotalResut();
+            
         }
 
         private void TabPage4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage5);
             tabControl1.TabPages.Remove(tabPage4);
-            TotalResut();
+            
         }
 
         private void Q4Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage5);
             tabControl1.TabPages.Remove(tabPage4);
-            TotalResut();
+            
         }
         private void Q4Btn0_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage5);
             tabControl1.TabPages.Remove(tabPage4);
-            TotalResut();
+            
         }
 
         //Q3BtnS
@@ -578,31 +578,31 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage4);
             tabControl1.TabPages.Remove(tabPage3);
-            TotalResut();
+            
         }
         private void Q3Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage4);
             tabControl1.TabPages.Remove(tabPage3);
-            TotalResut();
+            
         }
         private void Q3Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage4);
             tabControl1.TabPages.Remove(tabPage3);
-            TotalResut();
+            
         }
         private void Q3Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage4);
             tabControl1.TabPages.Remove(tabPage3);
-            TotalResut();
+            
         }
         private void Q3Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage4);
             tabControl1.TabPages.Remove(tabPage3);
-            TotalResut();
+            
             q[2] = true;
         }
 
@@ -612,20 +612,20 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage3);
             tabControl1.TabPages.Remove(tabPage2);
-            TotalResut();
+            
         }
         private void Q2Btn3_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage3);
             tabControl1.TabPages.Remove(tabPage2);
-            TotalResut();
+            
         }
         private void Q2Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage3);
             tabControl1.TabPages.Remove(tabPage2);
             q[1] = true;
-            TotalResut();
+            
         }
         private void Q2Btn2_Click(object sender, EventArgs e)
         {
@@ -636,7 +636,7 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage3);
             tabControl1.TabPages.Remove(tabPage2);
-            TotalResut();
+            
         }
 
         //Q1BtnS
@@ -645,33 +645,33 @@ namespace Tests
         {
             tabControl1.TabPages.Add(tabPage2);
             tabControl1.TabPages.Remove(tabPage1);
-            TotalResut();
+            
 
         }
         private void Q1Btn2_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage2);
             tabControl1.TabPages.Remove(tabPage1);
-            TotalResut();
+            
         }
         private void Q1Btn4_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage2);
             tabControl1.TabPages.Remove(tabPage1);
-            TotalResut();
+            
         }
         private void Q1Btn1_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage2);
             tabControl1.TabPages.Remove(tabPage1);
             q[0] = true;
-            TotalResut();
+            
         }
         private void Q1Btn0_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(tabPage2);
             tabControl1.TabPages.Remove(tabPage1);
-            TotalResut();
+            
         }
 
 
@@ -683,30 +683,57 @@ namespace Tests
 
             for (int i = 18; tabControl1.TabCount != 1; --i)
             {
-                tabControl1.TabPages.RemoveAt(i);
+                tabControl1.TabPages.RemoveAt(i);                
             }
-          //  tabControl1.TabPages.Add(tabPage19);
+            //tabControl1.TabPages.Add(tabPage19);
 
         }
    
         public void TotalResut()
         {
-            List<Label> Total = new List<Label>() { result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12, result13, result14, result15, result16, result17, result18, result19 };
-
+            List<Label> Total = new List<Label>() { result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12, result13, result14, result15, result16, result17 };
+            List<string> questions = new List<string>()
+            {
+                "1. В каком из пунктов перечислены названия только физические явления?",
+                "2. Какое научное предположение (гипотеза) точнее позволяет объяснить явление диффузии?",
+                "3. Чем отличается вещество в трех агрегатных состояниях?",
+                "4. В учебнике физики написано: «В сообщающихся сосудах поверхности однородной жидкости устанавливаются на одном уровне». Это утверждение является формулировкой:",
+                "5. В каком из ответов перечислены лишь средства описания физических явлений?",
+                "6. Что такое давление? (Выберите наиболее полный и верный ответ.)",
+                "7. От чего зависит давление газа? (Выберите наиболее полный ответ.)",
+                "8. От чего зависит давление жидкости на дно сосуда?",
+                "9. На каких уровнях давление жидкости в сообщающихся сосудах одинаково?",
+                "10. От чего зависит действие жидкости на погруженное в нее тело?",
+                "11. Изменится ли равновесие весов, если тела равной массы, но разного объема опустить в воду?",
+                "12. Как экспериментально определить силу Архимеда, действующую на тело?",
+                "13. Какая из приведенных формул используется для вычисления давления жидкости на дно сосуда?",
+                "14. Гусеничный трактор весом 60 кН имеет опорную площадь одной гусеницы 1 м2. Каково давление трактора на грунт?",
+                "15. Площадь меньшего поршня гидравлического пресса 10 см2, на него действует сила 200 Н. Площадь большего поршня 200 см2. Какая сила действует на этот поршень?",
+                "16. Чему равна архимедова сила, если тело объемом 0,01 м3 полностью находится в воде? Плотность воды 1000 кг/м3.",
+                "17. В каком из сосудов плотность жидкости больше, если давление жидкости на дно сосудов одинаково?",
+                "18. Как с помощью закона Архимеда экспериментально определить объем тела?"
+            };
 
             for (int i = 0; i < 18; i++)
             {
+                Total[i].Visible = false;
                 if (q[i] == true)
                 {
                     Total[i].Text = "Верно";
-                    Total[i].ForeColor = Color.Green;
+                    gridData.Rows.Add(Text = questions[i], Text = Total[i].Text);
+                    gridData.Rows[i].DefaultCellStyle.ForeColor = Color.Green;
+
                 }
                 else
                 {
                     Total[i].Text = "Не верно";
-                    Total[i].ForeColor = Color.Red;
+                    gridData.Rows.Add(Text = questions[i], Text = Total[i].Text);
+                    gridData.Rows[i].DefaultCellStyle.ForeColor = Color.Red;
                 }
+
             }
+
         }
+
     }
 }
